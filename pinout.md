@@ -1,7 +1,7 @@
 #### OLED <-> MKR
 
 `GND` to `GND`  
-`VCC` to `3v3`  
+`VCC` to `VCC`  
 `SCL` to `SCK` (`D9`)  
 `SDA` to `MOSI` (`D8`)  
 `RES` to `D7`  
@@ -11,11 +11,10 @@
 #### Piezo <-> MKR
 
 `GND` to `GND`  
-`VCC` to `3v3`  
-`TODO` to `TODO`  
+`VCC` to `D5`  
 
 #### GP2Y0A60SZLF <-> MKR
 
 `GND` to `GND`  
 `VCC` to `5V`  
-`TODO` to `TODO`  
+`OUT` to `A0`  
